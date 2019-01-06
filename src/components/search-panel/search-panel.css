@@ -1,0 +1,21 @@
+.search-field {
+    max-width: 50%;
+}
+.btn--filter {
+    background: none;
+    color: #009688;
+    font-size: 12px;
+    border: 1px solid #009688;
+    height: auto;
+    line-height: 1;
+    padding: 5px;
+    margin-right: 3px;
+}
+.btn--filter--active {
+    background: #009688;
+    color: #fff;
+}
+.btn--filter:hover {
+    background: #009688;
+    color: #fff;
+}

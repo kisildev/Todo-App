@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import AppHeader from '../app-header';
 import SearchPanel from '../search-panel';
+import ItemStatusFilter from '../item-status-filter'
 import TodoList from '../to-do-list';
 
 import './app.css';
@@ -21,8 +22,13 @@ const App = () => {
                     <AppHeader/>
                 </div> 
                 <div className="app-content">
-                    <SearchPanel/>
-                    <TodoList todos={todoData}/>
+                    <div className="app-filter-box">
+                        <SearchPanel/>
+                        <ItemStatusFilter/>
+                    </div>
+                    <div className="todo-list-wrapper">
+                        <TodoList todos={todoData}/>
+                    </div>
                 </div>
             </div>
         </div>

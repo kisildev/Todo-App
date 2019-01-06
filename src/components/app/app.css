@@ -17,3 +17,8 @@ body {
     background-color: #fff;
     padding: 20px;
 }
+.app-filter-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
