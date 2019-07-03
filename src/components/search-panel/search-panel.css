@@ -3,19 +3,19 @@
 }
 .btn--filter {
     background: none;
-    color: #009688;
+    color: #4A81BC;
     font-size: 12px;
-    border: 1px solid #009688;
+    border: 1px solid #4A81BC;
     height: auto;
     line-height: 1;
     padding: 5px;
     margin-right: 3px;
 }
 .btn--filter--active {
-    background: #009688;
+    background: #4A81BC;
     color: #fff;
 }
 .btn--filter:hover {
-    background: #009688;
+    background: #4A81BC;
     color: #fff;
 }

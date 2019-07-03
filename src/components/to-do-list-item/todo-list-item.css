@@ -53,14 +53,14 @@
 }
 
 .btn--highlight {
-    background: #009688;
-    border: 2px solid #009688;
+    background: #4A81BC;
+    border: 2px solid #4A81BC;
 }
 .btn--highlight i {
-    color: #009688;
+    color: #4A81BC;
 }
 .btn--highlight:hover {
-    background: #009688;
+    background: #4A81BC;
 }
 .btn--highlight:hover i {
     color: #fff;

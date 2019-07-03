@@ -1,0 +1,9 @@
+.add-item-panel {
+    display: flex;
+}
+.add-item-input {
+    margin-right: 10px;
+}
+.add-item-btn {
+    background-color: #4A81BC;
+}
